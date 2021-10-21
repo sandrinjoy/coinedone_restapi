@@ -4,7 +4,7 @@
   "description": "\"nodeJS api challenge\"",
   "main": "index.js",
   "scripts": {
-    "devStart":"nodemon index.js",
+    "devStart": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +16,7 @@
   "author": "sandrine p joy",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^6.0.11"
   },
